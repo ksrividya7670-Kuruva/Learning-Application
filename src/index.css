@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: 'Inter', sans-serif;
+  --color-deep: #0A2647;
+  --color-mid: #144272;
+  --color-accent: #205295;
+  --color-bright: #2C74B3;
+  background-color: var(--color-deep);
+  color: var(--color-accent);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overscroll-behavior-x: none; /* Prevent trackpad left/right swipe bouncing */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html.dark body {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-deep);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Chamfered / Angled Corner Card Utilities */
+.chamfer-card {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 18px) 0,
+    100% 18px,
+    100% 100%,
+    18px 100%,
+    0 calc(100% - 18px)
+  );
+  border-width: 2px !important;
+}
+
+.chamfer-card-lg {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 24px) 0,
+    100% 24px,
+    100% 100%,
+    24px 100%,
+    0 calc(100% - 24px)
+  );
+  border-width: 2px !important;
+}
+
+.chamfer-btn {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 12px) 0,
+    100% 12px,
+    100% 100%,
+    12px 100%,
+    0 calc(100% - 12px)
+  );
+  border-width: 2px !important;
+}

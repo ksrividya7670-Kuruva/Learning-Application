@@ -1,0 +1,72 @@
+[
+  {
+    "id": "google",
+    "name": "Google",
+    "role": "Software Engineer (L4)",
+    "timeToComplete": "12 Hours",
+    "faqs": [
+      { "id": 1, "question": "Design a distributed rate limiter.", "category": "System Design", "completed": true, "details": "Design a scalable rate limiter that can handle 10M requests per second across a global cluster. Consider Redis vs Memcached for distributed counters." },
+      { "id": 2, "question": "Find the longest palindromic substring.", "category": "Algorithms", "completed": false, "details": "Given a string s, return the longest palindromic substring in s. Can you solve it in O(n^2) time and O(1) space?" },
+      { "id": 3, "question": "How does Google handle eventual consistency in Spanner?", "category": "Architecture", "completed": false, "details": "Explain TrueTime API and how Spanner achieves external consistency (Linearizability) across datacenters." },
+      { "id": 4, "question": "Tell me about a time you resolved a critical production incident.", "category": "Behavioral", "completed": false, "details": "Focus on the STAR method. Emphasize how you diagnosed the root cause, communicated with stakeholders, and implemented a permanent fix." },
+      { "id": 5, "question": "Implement a Trie (Prefix Tree).", "category": "Data Structures", "completed": false, "details": "Implement the Trie class: insert(word), search(word), and startsWith(prefix). Optimize for space." }
+    ]
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "role": "SDE II",
+    "timeToComplete": "8 Hours",
+    "faqs": [
+      { "id": 1, "question": "Design an inventory management system.", "category": "System Design", "completed": true, "details": "Design a system to handle warehouse inventory updates in real-time during peak events like Prime Day." },
+      { "id": 2, "question": "Number of Islands (Matrix traversal).", "category": "Algorithms", "completed": false, "details": "Given an m x n 2D binary grid grid which represents a map of 1s (land) and 0s (water), return the number of islands." },
+      { "id": 3, "question": "Explain the \"Customer Obsession\" leadership principle with an example.", "category": "Behavioral", "completed": false, "details": "Provide an example where you went above and beyond to solve a customer pain point, even if it meant pushing back on internal metrics." },
+      { "id": 4, "question": "Design a scalable URL shortener.", "category": "System Design", "completed": false, "details": "Design a service like bit.ly. Focus on database schema, hash generation, and handling high read throughput." }
+    ]
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "role": "Front-End Engineer (E4)",
+    "timeToComplete": "10 Hours",
+    "faqs": [
+      { "id": 1, "question": "Build a News Feed UI architecture in React.", "category": "System Design", "completed": false, "details": "Design the component tree for a virtualized, infinite-scrolling news feed. Address image lazy loading and memory management." },
+      { "id": 2, "question": "Implement a debounced search bar from scratch.", "category": "JavaScript", "completed": false, "details": "Write a debounce function in vanilla JS. How would you handle race conditions in network requests?" },
+      { "id": 3, "question": "Traverse a DOM tree iteratively without recursion.", "category": "Algorithms", "completed": true, "details": "Write a function that traverses the DOM tree using a Stack or Queue to avoid call stack limits." },
+      { "id": 4, "question": "State management at scale.", "category": "Architecture", "completed": false, "details": "Compare Redux vs Recoil vs Context API for a highly interactive canvas application." }
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "role": "Software Engineer",
+    "timeToComplete": "6 Hours",
+    "faqs": [
+      { "id": 1, "question": "Design a file storage system like OneDrive.", "category": "System Design", "completed": false, "details": "Focus on block storage, deduplication, and sync conflict resolution across multiple devices." },
+      { "id": 2, "question": "Merge K sorted linked lists.", "category": "Algorithms", "completed": false, "details": "You are given an array of k linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list." },
+      { "id": 3, "question": "Design a concurrent Hash Map.", "category": "Data Structures", "completed": false, "details": "How would you implement a thread-safe hash map without locking the entire array? Discuss lock striping." }
+    ]
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "role": "iOS Engineer",
+    "timeToComplete": "7 Hours",
+    "faqs": [
+      { "id": 1, "question": "Explain ARC and Memory Leaks.", "category": "Swift", "completed": false, "details": "How does Automatic Reference Counting work? Give an example of a retain cycle and how to fix it using weak/unowned references." },
+      { "id": 2, "question": "Design the Notification Center.", "category": "System Design", "completed": false, "details": "Design a high-throughput push notification service. How do you handle offline devices?" },
+      { "id": 3, "question": "Two Sum (Optimized).", "category": "Algorithms", "completed": false, "details": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target." }
+    ]
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "role": "Senior Software Engineer",
+    "timeToComplete": "9 Hours",
+    "faqs": [
+      { "id": 1, "question": "Design a video streaming service.", "category": "System Design", "completed": false, "details": "Focus on CDN architecture, adaptive bitrate streaming, and handling regional outages." },
+      { "id": 2, "question": "Implement an LRU Cache.", "category": "Data Structures", "completed": false, "details": "Design and implement a data structure for Least Recently Used (LRU) cache. It should support get and put in O(1) time." },
+      { "id": 3, "question": "Chaos Engineering principles.", "category": "Architecture", "completed": false, "details": "Explain how you would design a system to survive random instance terminations (Chaos Monkey)." }
+    ]
+  }
+]
